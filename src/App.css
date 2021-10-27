@@ -1,38 +1,79 @@
-.App {
-  text-align: center;
+/* ======== Navigation ======== */
+nav {
+    background-color: #333 !important;
+    color: #fff !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#navbarNav {
+    justify-content: flex-end;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+i.fa-imdb {
+    color: rgb(216, 216, 15);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+i.fa-react {
+    color: rgb(20, 160, 179);
 }
 
-.App-link {
-  color: #61dafb;
+button.navbar-toggler {
+    background-color: #fff;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Search Form   */
+@media (max-width: 991px) {
+    form {
+        width: 90%;
+    }
+    form > button {
+        width: 100%;
+    }
+}
+
+/* Movie Detail */
+.container-movieDetail {
+    display: flex;
+}
+
+.container-movieDetail .left-img {
+    flex-basis: 40%;
+}
+
+.container-movieDetail img {
+    width: 100%;
+}
+.container-movieDetail .right-detail{
+    flex-basis: 60%;
+}
+
+/* Movie  */
+.card-img-top {
+    height:400px;
+}
+
+/* Movies  */
+.container-movies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.container-movies > div {
+    margin-bottom: 60px;
+}
+
+@media (max-width: 768px ) {
+    .container-movies {
+        justify-content: center;
+    }
+}
+
+.loader-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.ratings-list-item:nth-child(odd){
+    background-color: #eee;
 }
