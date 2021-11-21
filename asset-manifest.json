@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/OMDB-Movie-React-Redux/static/css/main.1d5f8a0c.chunk.css",
-    "main.js": "/OMDB-Movie-React-Redux/static/js/main.62ef1325.chunk.js",
-    "main.js.map": "/OMDB-Movie-React-Redux/static/js/main.62ef1325.chunk.js.map",
+    "main.js": "/OMDB-Movie-React-Redux/static/js/main.4c8b3120.chunk.js",
+    "main.js.map": "/OMDB-Movie-React-Redux/static/js/main.4c8b3120.chunk.js.map",
     "runtime-main.js": "/OMDB-Movie-React-Redux/static/js/runtime-main.346f63b8.js",
     "runtime-main.js.map": "/OMDB-Movie-React-Redux/static/js/runtime-main.346f63b8.js.map",
     "static/js/2.d4e3b171.chunk.js": "/OMDB-Movie-React-Redux/static/js/2.d4e3b171.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.346f63b8.js",
     "static/js/2.d4e3b171.chunk.js",
     "static/css/main.1d5f8a0c.chunk.css",
-    "static/js/main.62ef1325.chunk.js"
+    "static/js/main.4c8b3120.chunk.js"
   ]
 }
